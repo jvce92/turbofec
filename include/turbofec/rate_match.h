@@ -1,3 +1,7 @@
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifndef _TURBO_RATE_MATCH_
 #define _TURBO_RATE_MATCH_
 
@@ -45,3 +49,7 @@ int lte_conv_rate_match_fw(struct lte_rate_matcher *match,
 			   struct lte_rate_matcher_io *io);
 
 #endif /* _TURBO_RATE_MATCH_ */
+
+#ifdef __cplusplus
+}
+#endif

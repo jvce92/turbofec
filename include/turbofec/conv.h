@@ -1,3 +1,7 @@
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifndef _CONV_H_
 #define _CONV_H_
 
@@ -35,3 +39,7 @@ int lte_conv_decode(const struct lte_conv_code *code,
 		    const int8_t *input, uint8_t *output);
 
 #endif /* _CONV_H_ */
+
+#ifdef __cplusplus
+}
+#endif
