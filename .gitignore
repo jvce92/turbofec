@@ -15,3 +15,6 @@ libtool
 ltmain.sh
 missing
 turbofec.pc
+tmp/*
+src/external_libturbofec-stamp/*
+src/libturbofec-stamp/*
